@@ -94,7 +94,7 @@ nav {height: 0; width: 100%; overflow: hidden;}
     .homeStats {        /* PAGE STATS */
         clear: both; width: 100%;
         padding: 30px 0; margin: 10px auto 30px auto;
-        border: 1px solid black; background: rgb(252,252,252);
+        border: 1px solid rgba(0,0,0,0.3); background: rgb(252,252,252);
     }
     .homeStat {font-size: 3rem; color: #005260; margin-left: 5px;}
 
@@ -104,7 +104,7 @@ nav {height: 0; width: 100%; overflow: hidden;}
     .aboutInfo {        /* PAGE STATS */
         clear: both; width: 100%;
         padding: 30px 0; margin: 10px auto 30px auto;
-        border: 1px solid black; background: rgb(252,252,252);
+        border: 1px solid rgba(0,0,0,0.3); background: rgb(252,252,252);
     }
     .aboutIcon {font-size: 3rem; color: #005260; margin-left: 5px;}
 
@@ -114,7 +114,7 @@ nav {height: 0; width: 100%; overflow: hidden;}
     .donationColumn {
         clear: both; width: 100%;
         padding: 30px 0; margin: 10px auto 30px auto;
-        border: 1px solid black; background: rgb(252,252,252);
+        border: 1px solid rgba(0,0,0,0.3); background: rgb(252,252,252);
     }
     .donationColumn img{width: 95%; max-width: 300px;}
     .donationColumn h2{color: #005260;}
@@ -138,7 +138,7 @@ nav {height: 0; width: 100%; overflow: hidden;}
     .volunteerInfo{
         clear: both; width: 100%;
         padding: 30px 0; margin: 10px auto 30px auto;
-        border: 1px solid black; background: rgb(252,252,252);
+        border: 1px solid rgba(0,0,0,0.3); background: rgb(252,252,252);
     }
 
 /************************ NEWS CONTENT ************************/
@@ -146,7 +146,7 @@ nav {height: 0; width: 100%; overflow: hidden;}
 #downArrow {font-size: 40px; display: block;}
     #downArrow:hover {transform: translateY(10px); transition-duration: 0.4s;}
 
-article {width: 95%; margin: 0 auto 50px auto; background: white; border: 1px solid black; padding: 30px 0;}
+article {width: 95%; margin: 0 auto 50px auto; background: white; border: 1px solid rgba(0,0,0,0.3); padding: 30px 0;}
     article img {width: 80%; max-width: 500px;}
     article h2{color: rgb(15,97,111);}
     .newsDate {color: rgb(123, 50, 139);}
@@ -154,7 +154,7 @@ article {width: 95%; margin: 0 auto 50px auto; background: white; border: 1px so
 /************************ CONTACT CONTENT ************************/
 
 form {
-    width: 90%; max-width: 700px; border: 2px solid rgb(73, 0, 89);
+    width: 90%; max-width: 700px; border: 2px solid rgba(73, 0, 89, 0.5);
     background: rgb(108, 35, 124); border-radius: 30px; margin: 30px auto 30px auto;
 }
     label h3 { color: whitesmoke; font-size: 1.6em; padding: 15px 0 5px 0;text-align: left; margin-left: 9%;}
@@ -169,7 +169,7 @@ form {
 
 #submitBtn {
     font-size: 1.6em; padding: 5% 10% 5% 10%;
-    border: 1px solid black; background: rgb(20,102,116);
+    border: 1px solid rgba(0,0,0,0.3); background: rgb(20,102,116);
     border-radius: 30px; display: block; color: white;
     margin: 40px auto 30px auto; box-shadow:-3px -3px 1px 4px rgb(88, 15, 104);
     transition-duration: 0.3s; max-width: 90%; min-height: 80px; overflow: hidden;
