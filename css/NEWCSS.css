@@ -1,0 +1,206 @@
+html, body, div, section, h3, h2, h1, p, ul, li, input, button, td, tr, table, span, button, article {
+margin: 0px;
+padding: 0px;
+border: 0px;
+}
+
+html {height: 100%;}
+
+body {
+    font-family: 'Roboto', sans-serif; /* Page Font */
+    font-size: 16px; width: 100%; position: absolute;
+    top: 0; left: 0; min-height: 100%;
+    display: flex; flex-direction: column; 
+    background-color: #f3f3f5; text-align: center;
+}
+
+h1 {font-size: 2em; color: rgb(15,97,111);}
+h2 {font-size: 1.25em;} /* Default Sizes Are Mobile */
+h3 {font-size: 1.1em;}
+p {font-size: 1em;}
+a {text-decoration: none;}
+
+.mb10 {margin-bottom: 10px;} /*Margin Bottom Shortcuts */
+.mb20 {margin-bottom: 20px;}
+.mb30 {margin-bottom: 30px;}
+
+
+
+ /**** COLORS
+dark purple: rgb(103, 30, 119) light purple: rgb(123, 50, 139) blue: rgb(15,97,111)
+***/
+
+/* PAGE HEADER STYLES */
+
+#pageHeader {position: relative;}
+#mainLogo {position: center; width: 100%; max-width: 210px;}
+
+#mobileBtn {
+    background-color: rgb(103, 30, 119);
+    width: 45px; height: 35px;
+    display: block; margin: 0 auto 0 auto;
+}
+    #mobileBtn:hover {
+        background-color: rgb(123, 50, 139);
+        border: 0.5px solid gray; cursor: pointer;
+    }
+    .mobileBtnLine {
+        height: 4px; width: 30px;
+        background: #fff; display: block;
+        margin: 4px auto 4px auto;
+    } 
+
+#DonateBtn {
+    background-color: rgb(103,30,119);
+    padding: 15px 15px;
+    font-size: 1.2rem; color: white;
+    font-weight: bold; font-style: normal;
+    letter-spacing: 1.5px; display: block;
+    border-radius: 10px; box-shadow: 3px 3px 5px #888888;
+    clear: both; margin: 5px auto 20px auto;
+    max-width: 80px;
+}
+    #DonateBtn:hover {transform:translateX(-2px); transition-duration: 0.1s; box-shadow: 2px 3px 1px #888888; cursor: pointer;}
+
+nav {height: 0; width: 100%; overflow: hidden;}
+    nav a {
+        display: block; clear: both;
+        width: 100%; height: 40px;
+        border-bottom: 0.5px solid white;
+        background: rgb(103, 30, 119); color: white;
+    }
+    nav a:hover {background: rgb(123, 50, 139);}
+    nav a p {padding-top: 10px;}
+.active {background-color: rgb(123, 50, 139);}
+
+.mainH2{color: #4e5359; width: 95%; margin: 0 auto 20px auto;}
+
+.linkStyle {cursor: pointer; color: rgb(123, 50, 139);font-weight: bold; text-decoration: underline;}
+    .linkStyle:hover{text-decoration: none;}
+
+/************************ FOOTER STYLES ************************/
+
+.footer {background-color: rgb(103,30,119); padding: 20px 0 20px 0; color: whitesmoke;}
+    .footerTable {margin: 0 auto 0 auto;}
+    .footer h3 {margin: 25px 0 5px 0; font-size: 1.3em;}                          
+    .social-icon {width: 50px; display: block; cursor: pointer; margin: 0 auto 0 auto;}
+    #logo2 {width: 180px; margin: 20px 0 10px 0;}
+
+/************************ HOME CONTENT ************************/
+
+.Content {flex: 1;} /* Take up all available space pushing footer to bottom (sticky footer) */
+
+#homeStatsContainer{max-width: 95%; margin: 0 auto;}
+    .homeStats {        /* PAGE STATS */
+        clear: both; width: 100%;
+        padding: 30px 0; margin: 10px auto 30px auto;
+        border: 1px solid black; background: rgb(252,252,252);
+    }
+    .homeStat {font-size: 3rem; color: #005260; margin-left: 5px;}
+
+/************************ ABOUT CONTENT ************************/
+
+#aboutInfoContainer{max-width: 95%; margin: 0 auto;}
+    .aboutInfo {        /* PAGE STATS */
+        clear: both; width: 100%;
+        padding: 30px 0; margin: 10px auto 30px auto;
+        border: 1px solid black; background: rgb(252,252,252);
+    }
+    .aboutIcon {font-size: 3rem; color: #005260; margin-left: 5px;}
+
+/************************ DONATING CONTENT ************************/
+
+#donationContainer{max-width: 95%; margin: 0 auto;}
+    .donationColumn {
+        clear: both; width: 100%;
+        padding: 30px 0; margin: 10px auto 30px auto;
+        border: 1px solid black; background: rgb(252,252,252);
+    }
+    .donationColumn img{width: 95%; max-width: 300px;}
+    .donationColumn h2{color: #005260;}
+    .donList {
+    text-align: left; margin-left: 15%; list-style: none;
+    }
+
+    #doDonate li:before {font-family: 'FontAwesome'; content: '\f00c'; margin:0 15px 0 -10px; color: rgb(123, 50, 139);}
+    #dontDonate li:before {font-family: 'FontAwesome'; content: '\f00d'; margin:0 15px 0 -10px; color: rgb(123, 50, 139);}
+    #mapMarker li:before {font-family: 'FontAwesome'; content: '\f041'; margin:0 15px 0 -10px; color: rgb(123, 50, 139);}
+
+.blueHeader {color: rgb(15,97,111); text-align: left; margin: 0 10% 10px 10%;}
+
+
+#googleMaps{width: 100%; max-width:800px;}
+
+/************************ VOLUNTEERING CONTENT ************************/
+
+#volunteerContainer{max-width: 95%; margin: 0 auto;}
+    .volunteerIcon {font-size: 3rem; color: #005260; margin-left: 5px;}
+    .volunteerInfo{
+        clear: both; width: 100%;
+        padding: 30px 0; margin: 10px auto 30px auto;
+        border: 1px solid black; background: rgb(252,252,252);
+    }
+
+/************************ NEWS CONTENT ************************/
+
+#downArrow {font-size: 40px; display: block;}
+    #downArrow:hover {transform: translateY(10px); transition-duration: 0.4s;}
+
+article {width: 95%; margin: 0 auto 50px auto; background: white; border: 1px solid black; padding: 30px 0;}
+    article img {width: 80%; max-width: 500px;}
+    article h2{color: rgb(15,97,111);}
+    .newsDate {color: rgb(123, 50, 139);}
+
+/************************ CONTACT CONTENT ************************/
+
+form {
+    width: 90%; max-width: 700px; border: 2px solid rgb(73, 0, 89);
+    background: rgb(108, 35, 124); border-radius: 30px; margin: 30px auto 30px auto;
+}
+    label h3 { color: whitesmoke; font-size: 1.6em; padding: 15px 0 5px 0;text-align: left; margin-left: 9%;}
+    textarea {resize: none; min-height: 100px;}
+        textarea:focus, input:focus {outline: none; border: 2px solid rgb(103, 30, 119);}
+    .formInput{
+        background: rgb(249,249,249); border: 2px solid rgb(220,220,220);
+        border-radius: 5px; box-shadow: inset 0 1px 1px rgb(200,200,200);
+        font-size: 1.3em; padding: 4px; display: block;
+        width: 80%; margin: 0 auto;
+    }
+
+#submitBtn {
+    font-size: 1.6em; padding: 5% 10% 5% 10%;
+    border: 1px solid black; background: rgb(20,102,116);
+    border-radius: 30px; display: block; color: white;
+    margin: 40px auto 30px auto; box-shadow:-3px -3px 1px 4px rgb(88, 15, 104);
+    transition-duration: 0.3s; max-width: 90%; min-height: 80px; overflow: hidden;
+}
+
+#submitBtn:hover {
+    background: rgb(35,118,131); box-shadow: outset 10px rgb(225,225,225);
+    cursor: pointer; box-shadow:-2px -2px 1px 1px rgb(88, 15, 104);
+    transform:translateX(-2px); transition-duration: 0.1s;
+}
+
+#submitBtn:focus {outline: none;}
+
+.niceShadow {           /*CSS Tricks*/
+    position:relative;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 50px rgba(0, 0, 0, 0.2) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 50px rgba(0, 0, 0, 0.2) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 50px rgba(0, 0, 0, 0.2) inset;
+}
+.niceShadow:before, .niceShadow:after {
+    content:""; position:absolute; z-index:-1;
+    -webkit-box-shadow:0 0 30px rgba(0,0,0,0.7);
+    -moz-box-shadow:0 0 30px rgba(0,0,0,0.7);
+    box-shadow:0 0 30px rgba(0,0,0,0.7);
+    top:10px; bottom:10px; left:0; right:0;
+    -moz-border-radius:100px / 10px;
+    border-radius:100px / 10px;
+}
+
+/************************ FAQ CONTENT ************************/
+
+.faq-categories :hover {background: rgb(143, 70, 159);}
+.faq-group .faq-title h2 {font-size: 1em; color: #4e5359;}
+.faq-categories li a {font-size: 1em; color: whitesmoke;}
