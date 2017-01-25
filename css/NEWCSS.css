@@ -8,7 +8,7 @@ html {height: 100%;}
 
 body {
     font-family: 'Roboto', sans-serif; /* Page Font */
-    font-size: 16px; width: 100%; position: absolute;
+    font-size: 20px; width: 100%; position: absolute;
     top: 0; left: 0; min-height: 100%;
     display: flex; flex-direction: column; 
     background-color: #f3f3f5; text-align: center;
@@ -102,8 +102,8 @@ nav {height: 0; width: 100%; overflow: hidden;}
 
 #aboutInfoContainer{max-width: 95%; margin: 0 auto;}
     .aboutInfo {        /* PAGE STATS */
-        clear: both; width: 100%;
-        padding: 30px 0; margin: 10px auto 30px auto;
+        clear: both; width: 95%;
+        padding: 30px 2.5%; margin: 10px auto 30px auto;
         border: 1px solid rgba(0,0,0,0.3); background: rgb(252,252,252);
     }
     .aboutIcon {font-size: 3rem; color: #005260; margin-left: 5px;}
@@ -112,8 +112,8 @@ nav {height: 0; width: 100%; overflow: hidden;}
 
 #donationContainer{max-width: 95%; margin: 0 auto;}
     .donationColumn {
-        clear: both; width: 100%;
-        padding: 30px 0; margin: 10px auto 30px auto;
+        clear: both; width: 95%;
+        padding: 30px 2.5%; margin: 10px auto 30px auto;
         border: 1px solid rgba(0,0,0,0.3); background: rgb(252,252,252);
     }
     .donationColumn img{width: 95%; max-width: 300px;}
@@ -136,8 +136,8 @@ nav {height: 0; width: 100%; overflow: hidden;}
 #volunteerContainer{max-width: 95%; margin: 0 auto;}
     .volunteerIcon {font-size: 3rem; color: #005260; margin-left: 5px;}
     .volunteerInfo{
-        clear: both; width: 100%;
-        padding: 30px 0; margin: 10px auto 30px auto;
+        clear: both; width: 95%;
+        padding: 30px 2.5%; margin: 10px auto 30px auto;
         border: 1px solid rgba(0,0,0,0.3); background: rgb(252,252,252);
     }
 
@@ -146,9 +146,9 @@ nav {height: 0; width: 100%; overflow: hidden;}
 #downArrow {font-size: 40px; display: block;}
     #downArrow:hover {transform: translateY(10px); transition-duration: 0.4s;}
 
-article {width: 95%; margin: 0 auto 50px auto; background: white; border: 1px solid rgba(0,0,0,0.3); padding: 30px 0;}
+article {width: 90%; margin: 0 auto 50px auto; background: white; border: 1px solid rgba(0,0,0,0.3); padding: 30px 2.5%;}
     article img {width: 80%; max-width: 500px;}
-    article h2{color: rgb(15,97,111);}
+    article h2{color: rgb(15,97,111); padding:0 2.5%;}
     .newsDate {color: rgb(123, 50, 139);}
 
 /************************ CONTACT CONTENT ************************/
