@@ -199,6 +199,15 @@ form {
     border-radius:100px / 10px;
 }
 
+.contentShadow {
+    position:relative;
+    -webkit-box-shadow:0 1px 3px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.2);
+       -moz-box-shadow:0 1px 3px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.2);
+            box-shadow:0 1px 3x rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+
+
 /************************ FAQ CONTENT ************************/
 
 .faq-categories :hover {background: rgb(143, 70, 159);}
