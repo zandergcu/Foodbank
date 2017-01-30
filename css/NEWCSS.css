@@ -20,6 +20,7 @@ h3 {font-size: 1.1em;}
 p {font-size: 1em;}
 a {text-decoration: none;}
 
+
 .mb10 {margin-bottom: 10px;} /*Margin Bottom Shortcuts */
 .mb20 {margin-bottom: 20px;}
 .mb30 {margin-bottom: 30px;}
@@ -163,7 +164,7 @@ nav {height: 0; width: 100%; overflow: hidden;}
 
 /************************ NEWS CONTENT ************************/
 
-#downArrow {font-size: 40px; display: block;}
+#downArrow {font-size: 40px; display: block; color: rgb(103, 30, 119);}
     #downArrow:hover {transform: translateY(10px); transition-duration: 0.4s;}
 
 article {width: 90%; margin: 0 auto 50px auto; background: white; border: 1px solid rgba(0,0,0,0.3); padding: 30px 2.5%;}
