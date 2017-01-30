@@ -1,12 +1,13 @@
 .mySlides {
     display:none;
     width:100%;
-    max-width:1024px;
+    max-width:640px;
 }
 
 .SlideshowContainer{
     position: relative;
-    max-width: 1024px;
+    width: 94%;
+    max-width: 640px;
     margin: 10px auto 50px auto;
 }
 

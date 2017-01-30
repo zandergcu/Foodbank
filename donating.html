@@ -45,7 +45,7 @@
         <div id="donationContainer">
             <div class="donationColumn contentShadow">
                 <h2 class="mb20">Donating Food</h2>
-                <img src="http://placehold.it/300x200" class="mb10">
+                <img src="img/Donations1%20sq.jpg" class="mb10 imgBorder">
                 <p>We have several drop off points for the foodbank that are collected from regularly.</p>
                 <p>Scroll down to find the list...</p>
                 <p>Or click <a href="#donationPoints" class="linkStyle">Here</a> to jump to it!</p>
@@ -53,7 +53,7 @@
             
             <div class="donationColumn contentShadow">
                 <h2 class="mb30 mt10">Donating Money</h2>
-                <img src="http://placehold.it/300x200">
+                <img class="mb10 imgBorder" src="img/money2.jpg">
                 <p class="mt10">To donate money to help the foodbank please swing by the office or alternatively use one of our online methods.</p>
                 <p>We have a JustGiving page that can be found <a href="#" class="linkStyle">Here</a></p>
                 <p>We also have a Paypal account you can send donations to!</p>
@@ -61,14 +61,15 @@
             </div>
         </div>
         
-        <h2 class="blueHeader">Items To Donate:</h2>
+        <h2 class="donHeader">Items To Donate:</h2>
+        <h3 class="got">Got Lots</h3> | <h3 class="need mb30">Need Most</h3>
         <ul class="donList mb20" id="doDonate">
-            <li>Baked Beans</li>
+            <li><p class="got">Baked Beans</p></li>
             <li>Tinned Soups</li>
-            <li>Cereals/Porridge</li>
+            <li><p class="need">Cereals/Porridge</p></li>
             <li>Tea/Coffee</li>
             <li>Biscuits</li>
-            <li>Pasta</li>
+            <li><p class="got">Pasta</p></li>
             <li>Rice</li>
             <li>Noodles</li>
             <li>Cooking Sauces</li>
@@ -77,11 +78,14 @@
             <li>Mac n Cheese</li>
             <li>Curry</li>
             <li>Stew</li>
-            <li>Meat in a can</li>
-            <li>Meals in a can</li>
+            <li><p class="need">Meat in a can</p></li>
+            <li><p class="need">Meals in a can</p></li>
         </ul>
         
-                <h2 class="blueHeader mb10">Items We Cannot Accept:</h2>
+        <!-- class need can highlight red and on hover say we currently need these the most
+             class gotlots can highlight green and on hover say we have plenty of these atm -->
+        
+                <h2 class="donHeader mb10">Items We Cannot Accept:</h2>
         <ul class="donList mb20" id="dontDonate">
             <li>Alcohol</li>
             <li>Household Cleaners</li>
@@ -94,7 +98,7 @@
             <li>Item</li>
         </ul>
         
-        <h2 class="blueHeader mb10" id="donationPoints">Donation Points:</h2>
+        <h2 class="donHeader mb10" id="donationPoints">Donation Points:</h2>
             <ul class="donList mb20" id="mapMarker">
                 <li>Sainsburys Drumchapel</li>
                 <li>B&M Drumchapel</li>
