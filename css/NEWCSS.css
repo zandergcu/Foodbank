@@ -39,7 +39,7 @@ dark purple: rgb(103, 30, 119) light purple: rgb(123, 50, 139) blue: rgb(15,97,1
 /* PAGE HEADER STYLES */
 
 #pageHeader {position: relative;}
-#mainLogo {position: center; width: 100%; max-width: 300px;} /*210 */
+#mainLogo {position: center; width: 100%; max-width: 300px; } /*210 */
 
 #mobileBtn {
     background-color: rgb(103, 30, 119);
@@ -101,6 +101,30 @@ nav {height: 0; width: 100%; overflow: hidden;}
 /************************ HOME CONTENT ************************/
 
 .Content {flex: 1;} /* Take up all available space pushing footer to bottom (sticky footer) */
+
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+
+div#slider { overflow: hidden; }
+div#slider figure img { width: 20%; float: left; }
+div#slider figure { 
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 30s slidy infinite; 
+}
 
 #homeStatsContainer{max-width: 95%; margin: 0 auto;}
     .homeStats {        /* PAGE STATS */
