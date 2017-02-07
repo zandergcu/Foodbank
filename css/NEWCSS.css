@@ -174,7 +174,7 @@ div#slider figure {
     background: green;
 }
 
-#googleMaps{width: 100%; max-width:800px;}
+#googleMaps{width: 100%; max-width:800px; height: 400px; background-color: grey; margin: 0 auto;}
 
 /************************ VOLUNTEERING CONTENT ************************/
 
@@ -185,7 +185,9 @@ div#slider figure {
         padding: 30px 2.5%; margin: 10px auto 30px auto;
         border: 1px solid rgba(0,0,0,0.3); background: rgb(252,252,252);
     }
-
+#spacer{
+    margin-bottom: 50px;
+}
 /************************ NEWS CONTENT ************************/
 
 #downArrow {font-size: 40px; display: block; color: rgb(103, 30, 119);}

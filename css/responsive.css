@@ -66,6 +66,16 @@
         margin-right: 11%;
     }  
      
+    
+    /* ABOUT */
+    
+    #aboutInfoContainer{width: 100%;  margin: 0 auto;}
+    .aboutInfo {clear: none; width: 24%; float: left; margin: 20px 2% 50px 2%; min-height: 250px;}
+    
+    /* VOLUNTEER */
+    
+    #volunteerContainer{width: 100%; margin: 0 auto;}
+    .volunteerInfo{clear: none; width: 24%; float: left; margin: 20px 2% 50px 2%; min-height: 210px;}
 }
 
 @media only screen and (min-width : 1100px) {
