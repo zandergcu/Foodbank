@@ -154,25 +154,25 @@ div#slider figure {
     }
     .donationColumn img{width: 95%; max-width: 280px;}
     .donationColumn h2{color: #005260;}
-    .donList {
-    text-align: left; margin-left: 15%; list-style: none;
-    }
+    .donList {text-align: left; margin-left: 15%; list-style: none;}
 
-    #doDonate li:before {font-family: 'FontAwesome'; content: '\f00c'; margin:0 15px 0 -10px; color: rgb(123, 50, 139);}
-    #dontDonate li:before {font-family: 'FontAwesome'; content: '\f00d'; margin:0 15px 0 -10px; color: rgb(123, 50, 139);}
-    #mapMarker li:before {font-family: 'FontAwesome'; content: '\f041'; margin:0 15px 0 -10px; color: rgb(123, 50, 139);}
+    #doDonate li:before {font-family: 'FontAwesome'; content: '\f00c'; margin:0 15px 0 -6px; color: rgb(123, 50, 139);}
+    #dontDonate li:before {font-family: 'FontAwesome'; content: '\f00d'; margin:0 15px 0 -6px; color: rgb(123, 50, 139);}
+    #mapMarker li:before {font-family: 'FontAwesome'; content: '\f041'; margin:0 15px 0 -6px; color: rgb(123, 50, 139);}
 
 .donHeader {color: rgb(15,97,111); text-align: left; margin: 0 10% 10px 10%;}
 
 .need {
     display:inline-block;
-    background: red;
+    background: rgba(255,0,0,0.6);
 }
 
 .got {
     display:inline-block;
-    background: green;
+    background: rgba(0,255,0,0.6);
 }
+
+
 
 #googleMaps{width: 100%; max-width:800px; height: 400px; background-color: grey; margin: 0 auto;}
 
