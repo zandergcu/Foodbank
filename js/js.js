@@ -157,7 +157,7 @@ function initMap() {
     
         var officeMarker = new google.maps.Marker({
           position: {lat: 55.9172417, lng: -4.3794941},
-             icon: "http://maps.google.com/mapfiles/markerA.png",
+             icon: "https://maps.google.com/mapfiles/markerA.png",
             animation: google.maps.Animation.DROP,
             title: 'Our Office',
           map: map
@@ -168,7 +168,7 @@ function initMap() {
     
         var phoenixMarker = new google.maps.Marker({
           position: {lat: 55.9123925, lng: -4.3779575},
-            icon: "http://maps.google.com/mapfiles/markerB.png",
+            icon: "https://maps.google.com/mapfiles/markerB.png",
         animation: google.maps.Animation.DROP,
         title: 'Sainsburys Drumchapel Retail Park',
           map: map
@@ -179,7 +179,7 @@ function initMap() {
     
         var bNmMarker = new google.maps.Marker({
           position: {lat: 55.9098006, lng: -4.3730726},
-            icon: "http://maps.google.com/mapfiles/markerC.png",
+            icon: "https://maps.google.com/mapfiles/markerC.png",
         animation: google.maps.Animation.DROP,
         title: 'B&M Drumchapel',
           map: map
@@ -190,7 +190,7 @@ function initMap() {
 
         var sainsburysMarker = new google.maps.Marker({
           position: {lat: 55.9043823, lng: -4.3748535},
-            icon: "http://maps.google.com/mapfiles/markerD.png",
+            icon: "https://maps.google.com/mapfiles/markerD.png",
             animation: google.maps.Animation.DROP,
             title: 'Phoenix Hall',
           map: map
