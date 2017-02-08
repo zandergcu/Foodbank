@@ -74,15 +74,145 @@ function showDivs(n) {
 
   
 function initMap() {
-        var uluru = {lat: -25.363, lng: 131.044};
+        var Drum = {lat: 55.9111339, lng: -4.3707818};
         var map = new google.maps.Map(document.getElementById('googleMaps'), {
-          zoom: 4,
-          center: uluru
+          zoom: 13,
+          center: Drum
         });
-        var marker = new google.maps.Marker({
-          position: uluru,
+    
+    
+    
+    var officeInfo = '<div id="content">'+
+            '<div id="siteNotice">'+
+            '</div>'+
+            '<h1 id="firstHeading" class="firstHeading">Drumchapel Foodbank Office</h1>'+
+            '<div id="bodyContent">'+
+            '<img align="Left" width="150px" src="img/office.png">'+
+            '<p><b>Our office</b> can be found at Unit 9 Ladyloan place.' +
+            ' Feel free to swing by with donations during our opening times. <b>This is under construction.</b></p>'+
+            '<p>Website URL: <a href="#">'+
+            'https://DrumFoodbank.com</a></p> '+
+            '</div>'+
+            '</div>';
+    
+    var phoenixInfo = '<div id="content">'+
+            '<div id="siteNotice">'+
+            '</div>'+
+            '<h1 id="firstHeading" class="firstHeading">Phoenix Hall Drumchapel</h1>'+
+            '<div id="bodyContent">'+
+            '<img align="Left" width="150px" src="img/phoenix.png">'+
+            '<p>The <b>Phoenix Hall</b> can be found at Monymusk Place.' +
+            ' Feel free to swing by with donations during their opening times. 0141 944 0110 <b>This is under construction.</b></p>'+
+            '</div>'+
+            '</div>';
+    
+    var bNmInfo = '<div id="content">'+
+            '<div id="siteNotice">'+
+            '</div>'+
+            '<h1 id="firstHeading" class="firstHeading">B&M Drumchapel</h1>'+
+            '<div id="bodyContent">'+
+            '<img align="Left" width="150px" src="img/bnm.jpg">'+
+            '<p><b>B&M</b> can be found at Drumchapel Shopping Centre.' +
+            ' There are donation points near the checkouts where you can add donations to. Thanks. <b>This is under construction.</b> Open 0900-1800 Monday to Saturday and 1000-1700 Sundays. 0330 838 9286</p>'+
+            '</div>'+
+            '</div>';
+    
+    var sainsburysInfo = '<div id="content">'+
+            '<div id="siteNotice">'+
+            '</div>'+
+            '<h1 id="firstHeading" class="firstHeading">Sainsburys Drumchapel</h1>'+
+            '<div id="bodyContent">'+
+            '<img align="Left" width="150px" src="img/sains.png">'+
+            '<p><b>Sainsburys</b> can be found in the Great Western Retail Park. 10 Allerdyce Road.' +
+            ' There are donation points near the checkouts where you can add donations to. Thanks. <b>This is under construction.</b> Open 0900-2200 Sunday to Friday and 0700-2200 Saturdays. 0141 944 2841</p>'+
+            '</div>'+
+            '</div>';
+    
+    var officeInfoWindow = new google.maps.InfoWindow({
+          content: officeInfo,
+          maxWidth: 500
+        });
+    
+    var phoenixInfoWindow = new google.maps.InfoWindow({
+          content: phoenixInfo,
+          maxWidth: 500
+        });
+    
+    var bNmInfoWindow = new google.maps.InfoWindow({
+          content: bNmInfo,
+          maxWidth: 500
+        });
+    
+    var sainsburysInfoWindow = new google.maps.InfoWindow({
+          content: sainsburysInfo,
+          maxWidth: 500
+        });
+    
+    
+    
+    
+    
+    
+    
+    
+        var officeMarker = new google.maps.Marker({
+          position: {lat: 55.9172417, lng: -4.3794941},
+             icon: "http://maps.google.com/mapfiles/markerA.png",
+            animation: google.maps.Animation.DROP,
+            title: 'Our Office',
           map: map
         });
+    officeMarker.addListener('click', function() {
+          officeInfoWindow.open(map, officeMarker);
+        });
+    
+        var phoenixMarker = new google.maps.Marker({
+          position: {lat: 55.9123925, lng: -4.3779575},
+            icon: "http://maps.google.com/mapfiles/markerB.png",
+        animation: google.maps.Animation.DROP,
+        title: 'Sainsburys Drumchapel Retail Park',
+          map: map
+        });
+    phoenixMarker.addListener('click', function() {
+          phoenixInfoWindow.open(map, phoenixMarker);
+        });
+    
+        var bNmMarker = new google.maps.Marker({
+          position: {lat: 55.9098006, lng: -4.3730726},
+            icon: "http://maps.google.com/mapfiles/markerC.png",
+        animation: google.maps.Animation.DROP,
+        title: 'B&M Drumchapel',
+          map: map
+        });
+    bNmMarker.addListener('click', function() {
+          bNmInfoWindow.open(map, bNmMarker);
+        });
+
+        var sainsburysMarker = new google.maps.Marker({
+          position: {lat: 55.9043823, lng: -4.3748535},
+            icon: "http://maps.google.com/mapfiles/markerD.png",
+            animation: google.maps.Animation.DROP,
+            title: 'Phoenix Hall',
+          map: map
+        });
+    sainsburysMarker.addListener('click', function() {
+          sainsburysInfoWindow.open(map, sainsburysMarker);
+        });
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
       }
 
 
