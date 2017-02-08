@@ -202,7 +202,7 @@ article {width: 90%; margin: 0 auto 50px auto; background: white; border: 1px so
 
 form {
     width: 90%; max-width: 700px; border: 2px solid rgba(73, 0, 89, 0.5);
-    background: rgb(108, 35, 124); border-radius: 30px; margin: 30px auto 30px auto;
+    background: rgb(108, 35, 124); border-radius: 30px; margin: 50px auto 40px auto;
 }
     label h3 { color: whitesmoke; font-size: 1.6em; padding: 15px 0 5px 0;text-align: left; margin-left: 9%;}
     textarea {resize: none; min-height: 100px;}
