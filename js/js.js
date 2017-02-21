@@ -111,7 +111,7 @@ function initMap() {
             '</div>'+
             '<h1 id="firstHeading" class="firstHeading">B&M Drumchapel</h1>'+
             '<div id="bodyContent">'+
-            '<img align="Left" width="150px" src="img/bnm.jpg">'+
+            '<img class="mapImg" align="Left" width="150px" src="img/bnm.jpg">'+
             '<p><b>B&M</b> can be found at Drumchapel Shopping Centre.' +
             ' There are donation points near the checkouts where you can add donations to. Thanks. <b>This is under construction.</b> Open 0900-1800 Monday to Saturday and 1000-1700 Sundays. 0330 838 9286</p>'+
             '</div>'+
@@ -123,8 +123,8 @@ function initMap() {
             '<h1 id="firstHeading" class="firstHeading">Sainsburys Drumchapel</h1>'+
             '<div id="bodyContent">'+
             '<img align="Left" width="150px" src="img/sains.png">'+
-            '<p><b>Sainsburys</b> can be found in the Great Western Retail Park. 10 Allerdyce Road.' +
-            ' There are donation points near the checkouts where you can add donations to. Thanks. <b>This is under construction.</b> Open 0900-2200 Sunday to Friday and 0700-2200 Saturdays. 0141 944 2841</p>'+
+            '<div class="info-box"><p><b>Sainsburys</b> can be found in the Great Western Retail Park. 10 Allerdyce Road.' +
+            ' There are donation points near the checkouts where you can add donations to. Thanks. <b>This is under construction.</b> Open 0900-2200 Sunday to Friday and 0700-2200 Saturdays. 0141 944 2841</p></div>'+
             '</div>'+
             '</div>';
     
