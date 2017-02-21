@@ -172,7 +172,9 @@ div#slider figure {
     background: rgba(0,255,0,0.6);
 }
 
-
+.mapImg{
+    
+}
 
 #googleMaps{width: 100%; max-width:800px; height: 400px; background-color: grey; margin: 0 auto;}
 
@@ -197,6 +199,13 @@ article {width: 90%; margin: 0 auto 50px auto; background: white; border: 1px so
     article img {width: 80%; max-width: 500px;}
     article h2{color: rgb(15,97,111); padding:0 2.5%;}
     .newsDate {color: rgb(123, 50, 139);}
+
+.underCon {
+    width: 100%;
+    max-width: 500px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
 
 /************************ CONTACT CONTENT ************************/
 

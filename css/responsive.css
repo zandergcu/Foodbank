@@ -128,20 +128,23 @@
     
     #table2 {
         float: left;
-        margin: 0 0 0 2%;
+        margin: 0 0 0 1%;
     }
+    
+
     
     #table3 { 
         clear: none;
-        float: left;
         margin: 0 0 0 2%;
+        display: block;
+        
     }
 
-    #logo2 {                                        
-       float: right;
+        #logo2 {                                        
         clear: none;
-        margin: 0;
+        margin: 0 1% 0 0;
         display: block;
+        float: right;
     }  
 }
 
@@ -149,5 +152,15 @@
     #table1 {
         margin: 0 0 0 5%;
     }
+    
+    #table3 { 
+        margin: 0 0 0 4%;
+    }
+}
 
+@media only screen and (min-width : 1300px) {
+ 
+    #table3 { 
+        margin: 0 0 0 6%;
+    }
 }
