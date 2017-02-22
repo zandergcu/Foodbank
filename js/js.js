@@ -88,22 +88,24 @@ function initMap() {
             '<h1 id="firstHeading" class="firstHeading">Drumchapel Foodbank Office</h1>'+
             '<div id="bodyContent">'+
             '<img align="Left" width="150px" src="img/office.PNG">'+
-            '<p><b>Our office</b> can be found at Unit 9 Ladyloan place.' +
-            ' Feel free to swing by with donations during our opening times. <b>This is under construction.</b></p>'+
-            '<p>Website URL: <a href="#">'+
-            'https://DrumFoodbank.com</a></p> '+
+            '<p><br /><b>Our office</b> can be found at Unit 9 Ladyloan place. <br />' +
+            '<br />Feel free to swing by with donations during our opening times.<br />(Typically Mon-Fri 0900-1500). <br /></p>'+
+            '<p><br /><b>Telephone: </b>'+
+            '0141 944 3335</p> '+
             '</div>'+
             '</div>';
+
     
-    var phoenixInfo = '<div id="content">'+
+        var phoenixInfo = '<div id="content">'+
             '<div id="siteNotice">'+
             '</div>'+
             '<h1 id="firstHeading" class="firstHeading">Phoenix Hall Drumchapel</h1>'+
             '<div id="bodyContent">'+
-            '<img align="Left" width="150px" src="img/phoenix.PNG">'+
-            '<p>The <b>Phoenix Hall</b> can be found at Monymusk Place.' +
-            ' Feel free to swing by with donations during their opening times.</p>' +
-            '<p>0141 944 0110</p>'+
+            '<br /><img align="Left" width="150px" src="img/phoenix.PNG">'+
+            '<p>The <b>Phoenix Hall</b> can be found at Monymusk Place.<br />' +
+            '<br />Feel free to swing by with donations during their opening times.<br />(Typically Mon-Fri 0900-1500). <br /></p>'+
+            '<p><br /><b>Telephone: </b>'+
+            '0141 944 0110</p> '+
             '</div>'+
             '</div>';
     
@@ -112,22 +114,31 @@ function initMap() {
             '</div>'+
             '<h1 id="firstHeading" class="firstHeading">B&M Drumchapel</h1>'+
             '<div id="bodyContent">'+
-            '<img class="mapImg" align="Left" width="150px" src="img/bnm.jpg">'+
-            '<p><b>B&M</b> can be found at Drumchapel Shopping Centre.' +
-            ' There are donation points near the checkouts where you can add donations to. Thanks. <b>This is under construction.</b> Open 0900-1800 Monday to Saturday and 1000-1700 Sundays. 0330 838 9286</p>'+
+            '<br /><img class="mapImg" align="Left" width="150px" src="img/bnm.jpg">'+
+            '<p><b>B&M</b> can be found at Drumchapel Shopping Centre.</p>' +
+            '<br />' +
+            '<p>There are donation points for the foodbank near the checkouts. Thanks!</p>' +
+            '<br />' +
+            '<p"><b>Opening Times:</b><br />' +
+            'Mon-Sat 0900-1800<br />' +
+            'Sunday 1000-1700</p>' +
             '</div>'+
             '</div>';
     
-    var sainsburysInfo = '<div id="content">'+
+        var sainsburysInfo = '<div id="content">'+
             '<div id="siteNotice">'+
             '</div>'+
             '<h1 id="firstHeading" class="firstHeading">Sainsburys Drumchapel</h1>'+
             '<div id="bodyContent">'+
-            '<img align="Left" width="150px" src="img/sains.PNG">'+
-            '<div class="info-box"><p><b>Sainsburys</b> can be found in the Great Western Retail Park. 10 Allerdyce Road.' +
-            ' There are donation points near the checkouts where you can add donations to. Thanks. <b>This is under construction.</b> Open 0900-2200 Sunday to Friday and 0700-2200 Saturdays. 0141 944 2841</p></div>'+
+            '<br /><img align="Left" width="150px" src="img/sains.PNG">'+
+            '<div class="info-box"><p><b>Sainsburys</b> can be found in the Great Western Retail Park. 10 Allerdyce Road.<br />' +
+            '<br />There are donation points for the foodbank near the main doors that you can catch on your way out of the store.<br />' + '<br />' +
+            '<p"><b>Opening Times:</b><br />' +
+            'Sun-Friday 0900-2200<br />' +
+            'Saturday 0700-2200</p>' +
             '</div>'+
             '</div>';
+
     
     var officeInfoWindow = new google.maps.InfoWindow({
           content: officeInfo,
