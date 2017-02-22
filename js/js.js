@@ -87,7 +87,7 @@ function initMap() {
             '</div>'+
             '<h1 id="firstHeading" class="firstHeading">Drumchapel Foodbank Office</h1>'+
             '<div id="bodyContent">'+
-            '<img align="Left" width="150px" src="img/office.png">'+
+            '<img align="Left" width="150px" src="img/office.PNG">'+
             '<p><b>Our office</b> can be found at Unit 9 Ladyloan place.' +
             ' Feel free to swing by with donations during our opening times. <b>This is under construction.</b></p>'+
             '<p>Website URL: <a href="#">'+
@@ -100,9 +100,10 @@ function initMap() {
             '</div>'+
             '<h1 id="firstHeading" class="firstHeading">Phoenix Hall Drumchapel</h1>'+
             '<div id="bodyContent">'+
-            '<img align="Left" width="150px" src="img/phoenix.png">'+
+            '<img align="Left" width="150px" src="img/phoenix.PNG">'+
             '<p>The <b>Phoenix Hall</b> can be found at Monymusk Place.' +
-            ' Feel free to swing by with donations during their opening times. 0141 944 0110 <b>This is under construction.</b></p>'+
+            ' Feel free to swing by with donations during their opening times.</p>' +
+            '<p>0141 944 0110</p>'+
             '</div>'+
             '</div>';
     
@@ -122,7 +123,7 @@ function initMap() {
             '</div>'+
             '<h1 id="firstHeading" class="firstHeading">Sainsburys Drumchapel</h1>'+
             '<div id="bodyContent">'+
-            '<img align="Left" width="150px" src="img/sains.png">'+
+            '<img align="Left" width="150px" src="img/sains.PNG">'+
             '<div class="info-box"><p><b>Sainsburys</b> can be found in the Great Western Retail Park. 10 Allerdyce Road.' +
             ' There are donation points near the checkouts where you can add donations to. Thanks. <b>This is under construction.</b> Open 0900-2200 Sunday to Friday and 0700-2200 Saturdays. 0141 944 2841</p></div>'+
             '</div>'+
