@@ -31,6 +31,10 @@ a {text-decoration: none;}
    background-color: white;
 }
 
+.spacer {
+    height: 50px;
+}
+
 
  /**** COLORS
 dark purple: rgb(103, 30, 119) light purple: rgb(123, 50, 139) blue: rgb(15,97,111)
@@ -86,7 +90,7 @@ nav {height: 0; width: 100%; overflow: hidden;}
 
 /************************ FOOTER STYLES ************************/
 
-.footer {background-color: rgb(103,30,119); padding: 20px 0 20px 0; color: whitesmoke; border-top: 4px solid rgba(0,0,0,0.6);}
+.footer {background-color: rgb(103,30,119); padding: 20px 0 20px 0; color: whitesmoke; border-top: 4px solid rgba(0,0,0,0.6); margin-top: 20px;}
     .footerTable {margin: 0 auto 0 auto;}
     .footer h3 {margin: 25px 0 5px 0; font-size: 1.3em;}                          
     .social-icon {width: 65px; display: block; cursor: pointer; margin: 0 auto 0 auto;}
@@ -204,6 +208,10 @@ article {width: 90%; margin: 0 auto 50px auto; background: white; border: 1px so
     width: 100%;
     max-width: 500px;
     margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#newsH2 {
     margin-bottom: 50px;
 }
 
