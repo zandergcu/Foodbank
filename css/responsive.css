@@ -5,12 +5,12 @@
     
     .Content {transform: translateY(0);}
     
-    #mainLogo {float: left; margin: 10px 0 0 6%; max-width: 100px;}
+    #mainLogo {float: left; margin: 2px 0 0 8%; max-width: 100px;}
     #mobileBtn {display: none;}
 
     #DonateBtn {
         clear: none; margin: 0; position: absolute;
-        top: 100px; right: 0px; border-radius: 0;
+        top: 95px; right: 0px; border-radius: 0;
         box-shadow: none; transition-duration: 0.5s; display: block;
     }
     #DonateBtn:hover{
