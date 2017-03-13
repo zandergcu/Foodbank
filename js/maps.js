@@ -1,7 +1,7 @@
 function initMap() {
         var Drum = {lat: 55.9111339, lng: -4.3707818};
         var map = new google.maps.Map(document.getElementById('googleMaps'), {
-          zoom: 13,
+          zoom: 14,
           center: Drum
         });
     
@@ -67,28 +67,23 @@ function initMap() {
     
     var officeInfoWindow = new google.maps.InfoWindow({
           content: officeInfo,
-          maxWidth: 500
+          maxWidth: 600
         });
     
     var phoenixInfoWindow = new google.maps.InfoWindow({
           content: phoenixInfo,
-          maxWidth: 500
+          maxWidth: 600
         });
     
     var bNmInfoWindow = new google.maps.InfoWindow({
           content: bNmInfo,
-          maxWidth: 500
+          maxWidth: 600
         });
     
     var sainsburysInfoWindow = new google.maps.InfoWindow({
           content: sainsburysInfo,
-          maxWidth: 500
+          maxWidth: 600
         });
-    
-    
-    
-    
-    
     
     
     
@@ -104,7 +99,7 @@ function initMap() {
         });
     
         var phoenixMarker = new google.maps.Marker({
-          position: {lat: 55.9123925, lng: -4.3779575},
+          position: {lat: 55.9176527, lng: -4.3778812},
             icon: "https://maps.google.com/mapfiles/markerB.png",
         animation: google.maps.Animation.DROP,
         title: 'Sainsburys Drumchapel Retail Park',
