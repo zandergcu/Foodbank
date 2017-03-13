@@ -42,7 +42,7 @@ dark purple: rgb(103, 30, 119) light purple: rgb(123, 50, 139) blue: rgb(15,97,1
 
 /* PAGE HEADER STYLES */
 
-#pageHeader {position: relative; margin: 0; padding: 0; }
+#pageHeader {position: relative; margin: 0; padding: 0; max-height: 240px;  }
 #mainLogo { float: center; width: 100%; max-width: 150px; margin: 0 0 0 10px; transform: translateX(-35px);  } /*300 */
 
 #mobileBtn {
@@ -89,7 +89,7 @@ nav {height: 0; width: 100%; overflow: hidden; transform: translateY(-30px);}
 .linkStyle {cursor: pointer; color: rgb(123, 50, 139);font-weight: bold; text-decoration: underline;}
     .linkStyle:hover{text-decoration: none;}
 
-.Content {transform: translateY(-30px);}
+
 
 /************************ FOOTER STYLES ************************/
 
